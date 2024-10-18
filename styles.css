@@ -1,5 +1,5 @@
 body {
-    margin: 0; /* Remove default body margin */
+    margin: 0;
 }
 
 .navbar {
@@ -19,13 +19,13 @@ body {
     display: flex;
     align-items: center;
     height: 100%;
-    width: 100%; /* Ensure ul takes full width */
-    justify-content: center; /* Center items in the navbar */
+    width: 100%;
+    justify-content: center;
 }
 
 .navbar ul li {
-    margin: 0; /* Remove margin for individual list items */
-    padding: 0 10px 0 10px; /* Add horizontal padding */
+    margin: 0;
+    padding: 0 10px;
     color: aliceblue;
 }
 
@@ -35,13 +35,13 @@ body {
 }
 
 .more {
-    margin-right: 0; /* No right margin */
+    margin-right: 0;
 }
 
 .downarrow {
-    margin-left: 0; /* No left margin */
-    width: 20px; /* Adjust size of down arrow */
-    height: auto; /* Maintain aspect ratio */
+    margin-left: 0;
+    width: 20px;
+    height: auto;
 }
 
 .burger {
@@ -50,8 +50,8 @@ body {
 }
 
 .search-container {
-    margin-left: 40px ; /* Adjust as necessary */
-    margin-right: 40px ;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .search-bar {
@@ -65,8 +65,6 @@ body {
     padding-top: 60px; 
 }
 
-/* 8888888888888888888888888888888888 */
-
 .top-section {
     display: flex;
     justify-content: space-between;
@@ -75,7 +73,6 @@ body {
 }
 
 .image img {
-
     margin-top: 100px;
     margin-left: 200px;
     width: 200px;
@@ -148,19 +145,16 @@ body {
     color: #ffffff;
 }
 
-/*8888888888888888888888888888888*/
-
 .container {
     background-color: #4a60f5;
     width: 80%;
     max-width: 1000px;
     display: flex;
-    margin: 100px auto; /* Add vertical margin and center horizontally */
+    margin: 100px auto;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-
 
 .sidebar {
     width: 25%;
@@ -176,20 +170,18 @@ body {
     margin: 10px 0;
     background-color: #4a60f5;
     color: #faf7f7;
-    border: 3px solid white; /* Specify border style */
+    border: 3px solid white;
     border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-
 .menu-btn.active {
     background-color: #d7e8fd;
     font-weight: bold;
     color: #000;
 }
-
 
 .info-box {
     background-color: #f0f3fc;
@@ -224,35 +216,30 @@ body {
     margin-top: 20px;
 }
 
-
-
-/********88888888*/
-
 .chatbot-icon {
     position: fixed;
-    bottom: 20px; /* Distance from bottom */
-    right: 20px; /* Distance from right */
-    z-index: 1000; /* Ensures the icon is on top */
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
 }
 
 .chatbot-icon img {
-    width: 60px; /* Icon size */
-    height: 60px; /* Icon size */
-    cursor: pointer; /* Changes cursor to pointer */
-    border-radius: 50%; /* Optional: round the icon */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
-
 
 .floating-image {
     position: absolute;
-    top: 50%; /* Center vertically */
-    right: 20px; /* Position from the right */
-    transform: translateY(-50%); /* Center adjustment */
-    z-index: 1000; /* Ensure it's on top */
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 1000;
 }
 
 .floating-image img {
-    width: 100px; /* Adjust the size as needed */
+    width: 100px;
     height: auto;
 }
